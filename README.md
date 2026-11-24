@@ -1,40 +1,33 @@
 # Menghe Shang
 
-M.S. Computer Science student at the University of Southern California, with a background in ecology and research computing.
+M.S. Computer Science student at the University of Southern California, with a quantitative science background from Peking University.
 
-I work with data-intensive research problems, building reproducible analysis workflows and applying machine learning to scientific and real-world datasets. I am currently seeking **Summer 2027 Software Engineering and Machine Learning Engineering internships**.
+I build LLM applications with rigorous evaluation, scalable data pipelines, and interpretable machine learning models for scientific and real-world data. I am currently seeking **Summer 2027 Software Engineering, Machine Learning, and Applied Science internships**.
 
 ## About Me
 
 - M.S. in Computer Science (Scientists and Engineers), USC Viterbi, expected December 2028
-- B.S. in Ecology, Peking University
-- Interested in software engineering, machine learning, data systems, and applied research
+- B.S. in Ecology, Peking University, 2026
+- Interested in machine learning, LLM applications, data systems, and backend engineering
 
-## Selected Research & Projects
+## Projects & Research
 
-### Scalable sedaDNA Processing — UC Berkeley
-- Built Python workflows for processing 609 BAM files, each containing more than 10 million reads.
-- Reduced processing time by approximately 90% and improved pattern-matching speed by 10×.
-- Developed a scalable workflow for FST and SNP analysis.
+### [Sinan](https://github.com/mengheShang/sinan): AI Email Assistant for Deadlines and To-Dos
+- Full-stack LLM assistant (FastAPI, PostgreSQL, Next.js, Docker) that turns a Gmail inbox into a daily digest of deadlines and to-dos.
+- Reached 96% precision and 96% due-time accuracy on a synthetic test set, with strict JSON Schema output and verbatim email evidence for every item.
+- Evaluation pipeline with a hand-labeled, stratified real-email set, plus 48 prompt-injection cases checked in CI.
 
-### Riverine Particulate Organic Carbon Modeling — Peking University
-- Combined 15 datasets and more than 80 environmental variables across 9 river basins.
-- Compared 3 machine-learning models and used SHAP and time-series analysis to study feature contributions and temporal patterns.
+### Scalable sedaDNA Processing, UC Berkeley
+- Built Python workflows (pysam) for 609 BAM files, each containing more than 10 million reads, cutting processing time by about 90%.
+- Replaced brute-force sequence matching with hash-based lookup, reducing complexity from O(reads × targets) to O(reads).
 
-### Remote-Sensing Flood Monitoring
-- Processed and analyzed more than 300 SAR images and 2,300 multispectral images for flood-monitoring research.
+### Machine Learning Modeling of Riverine Carbon Flux, Peking University
+- Trained and compared XGBoost, Random Forest, and SVM models on 80+ environmental features across 9 major basins in China (R² > 0.8), and interpreted them with SHAP.
 
-### NYC Bike-Sharing Analysis
-- Analyzed bike-sharing data across more than 500 New York City stations to study demand and station allocation patterns.
+## Tech Stack
 
-## Technical Skills
+Python · Java · SQL · TypeScript · PyTorch · Scikit-learn · FastAPI · PostgreSQL · Next.js · Docker · GitHub Actions
 
-- **Programming Languages:** Python, Java, R, JavaScript, SQL
-- **Machine Learning:** pandas, NumPy, scikit-learn, PyTorch, SHAP, XGBoost
-- **Geospatial:** Google Earth Engine, ArcGIS Pro
-- **Tools:** Git, Linux
+## Contact
 
-## Current Focus
-
-- Building a small, end-to-end software/ML project with clear documentation and tests.
-- Preparing a first contribution to an open-source project.
+[LinkedIn](https://www.linkedin.com/in/menghe-shang-7950a0436)
